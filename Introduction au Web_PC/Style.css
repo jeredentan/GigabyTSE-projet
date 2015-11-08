@@ -1,0 +1,242 @@
+/* Code réalisé par Jeremie Dentan
+
+
+*/
+
+/*-------------------------------------------------------------------
+
+0 :  General
+
+------------------------------------------------------------------*/
+body {
+    background:#fff;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+[class*="col-"], footer {
+
+    /*border: 2px solid black;*/
+    border-radius: 6px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.row {
+    margin-right: -15px;
+
+    margin-left: -15px;
+}
+
+/*-----------------------------------------------------------
+
+1 :  Header 
+
+------------------------------------------------------------*/
+#Titre_Principal{
+
+    float:right;
+
+
+}
+
+header{
+    background:black;
+
+
+
+}
+#header{
+    text-align:left;
+}
+
+
+
+
+/*-----------------------------------------------------------
+
+Contenu principal 
+
+------------------------------------------------------------*/
+
+
+/*------------------ index.html --------------------*/
+#Cadre_resume{
+    border:#000 2px solid;
+
+    margin-left:20%;
+    margin-top:3%;
+border-radius:5px;
+        max-width:inherit;
+    width:60%;
+
+
+}
+#texte_descriptif{
+    text-indent: 5px;
+    
+   
+    border-radius:0px;
+    line-height:25px;;
+  
+
+}
+#disponibilité{
+    margin-left:20px;
+    
+}
+#photo_index{
+    border-right:1px black dotted;
+    border-radius:0px;
+}
+
+
+#Contacts{
+  width:70%;
+    margin-top:20px;
+      margin-left:15%;
+
+}
+
+
+/*--------------------------------------------------------------------*/
+#photo_identité{
+    padding-top:5px;
+    padding-bottom:5px;
+    max-width:100%;
+}
+
+#Cadre_CV{
+    margin-top:25px;
+    border:#000 2px solid;
+    border-radius:6px;
+    width:80%;
+    margin-left:10%;
+}
+
+
+
+
+
+
+
+#titre_formation,
+#titre_competences,
+#titre_loisirs{
+    color:white;
+    margin-right:50%;
+    margin-left:5%;
+    width:30%;
+    border-radius:0px;
+    background-color:#606;
+}
+
+#competences,
+#formation
+{
+
+    margin-bottom:40px;
+
+}
+#formation,
+#competences,
+#loisirs{
+    text-align:left;
+    margin-left:5%;
+    border:1px solid black;
+    border-radius:0px;
+
+}
+
+#Telechargements_ressources{
+    margin-top:50px;
+    margin-left:10%;
+    text-align:left;
+}
+#cadre_GIF{
+
+    margin-top:25px;
+    border:#333 2px solid;
+    border-radius:6px;
+    width:446px;
+    height:189px;
+
+}
+/* --------------------------------------------------------
+
+Menu de navigation 
+
+---------------------------------------------------------*/
+
+#menu{
+    display:inline-block;
+    position:relative;
+
+    padding-left:8%;
+    margin-top:1.5%;
+
+}
+
+.titre_lien_nav{
+    display:inline-block;
+
+
+}
+#navbar a{
+    color:#fff;
+    width:150px;
+    margin:6px;
+    border-top:#72AB00 3px solid;
+
+
+
+}
+
+#navbar a:hover,#navbr a:focus{
+    color:#72AB00;
+    background-color:#000;
+    border-top:#72AB00 6px solid;
+}
+#forme_titre_menu_1,
+#forme_titre_menu_2,
+#forme_titre_menu_3
+{
+    text-align: center; 
+    line-height: 22px;
+    font-size:22px;
+}
+/*----------------------------------------------------------------------------
+Footer
+----------------------------------------------------------------------------*/
+footer{
+    border-top:black dotted 1px;
+    border-bottom:black 1px dotted;
+    border-radius:0px;
+    margin-top:20px;
+
+}
+
+/*------------------------------------------------------------ 
+Media Queries 
+------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 100%:
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width: 100%;
+        }
+    }
+
